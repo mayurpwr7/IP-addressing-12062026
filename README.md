@@ -32,7 +32,7 @@ Total possible IPv4 addresses:
 
 | Class | First Octet Range | Default Subnet Mask | Usage |
 |---------|------------------|-------------------|---------|
-| A | 1 - 126 | 255.0.0.0 (/8) | Large Networks |
+| A | 1 - 127 | 255.0.0.0 (/8) | Large Networks |
 | B | 128 - 191 | 255.255.0.0 (/16) | Medium Networks |
 | C | 192 - 223 | 255.255.255.0 (/24) | Small Networks |
 | D | 224 - 239 | N/A | Multicast |
@@ -306,7 +306,7 @@ Broadcast Address:
 ## Class Ranges
 
 ```text
-Class A : 1 - 126
+Class A : 1 - 127
 Class B : 128 - 191
 Class C : 192 - 223
 Class D : 224 - 239
